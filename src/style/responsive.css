@@ -1,0 +1,121 @@
+/* small */
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* medium */
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* large */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 999px) {
+  .menuList {
+    flex-direction: column;
+  }
+  .menuList {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--black);
+  }
+  .menuList li {
+    padding: 18px 26px;
+  }
+  .navBar-container {
+    background: black;
+  }
+  .container-items {
+    flex-direction: column;
+  }
+  /* .menuList {
+    transition: ;
+  } */
+  .navBar-container .nav-content {
+    width: 100%;
+  }
+}
+@media (min-width: 1000px) {
+  .bar-icon {
+    display: none;
+  }
+  .navBar-container.sticky {
+    background: #fff !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  .navBar-container.sticky .btn-nav {
+    color: #fff !important;
+    background: #ee76ad;
+    border: none !important;
+  }
+  .navBar-container.sticky a {
+    color: #404044 !important;
+    transition: 0.5s;
+  }
+  .navBar-container.sticky a:hover {
+    color: #ee76ad !important;
+  }
+}
+@media (max-width: 488px) {
+  .home h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 996px) {
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .heading-content {
+    max-width: 100%;
+  }
+  .achievement-box {
+    flex-direction: column;
+  }
+  .achievement-item {
+    margin-bottom: 20px;
+  }
+  .container-customer,
+  .work-container .container-item,
+  .container-item {
+    flex-direction: column;
+  }
+  .work-container .right-content-container .heading-content {
+    max-width: 100%;
+  }
+  .work-container .container-item {
+    margin: 0;
+    gap: 0;
+  }
+  .gallery-groub {
+    display: none;
+  }
+  .Web-designer .top-title {
+    margin-top: 4rem;
+  }
+  .container-services .contant-item {
+    margin-bottom: 22px;
+  }
+  .work-container .right-content-container {
+    width: 100%;
+  }
+}
